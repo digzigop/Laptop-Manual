@@ -1,0 +1,78 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #f4f7fa;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(120deg, #000000, #ffffff);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.3rem;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #4e6ef2;
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.image-gallery img {
+  width: 32%;
+  border-radius: 10px;
+}
+
+.parts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.part img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.part p {
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .image-gallery img {
+    width: 100%;
+  }
+}
